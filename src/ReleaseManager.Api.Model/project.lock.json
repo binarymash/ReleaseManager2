@@ -1,0 +1,174 @@
+{
+  "locked": false,
+  "version": -9998,
+  "projectFileDependencyGroups": {
+    "": [
+      "WebApi.Hal >= 2.5.1"
+    ],
+    "DNX,Version=v4.5.1": []
+  },
+  "libraries": {
+    "Microsoft.AspNet.WebApi/5.1.2": {
+      "serviceable": false,
+      "sha": "ZWNQr9qODEIw5+SIRj4WTkIlkaEzpV1EUZ/AqMrHhG99ZPMPV4Vo3Et9oT8wn4ZULIhyTwvzuu3go4itPyOIBA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.WebHost": "[5.1.2, 5.2.0)"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.WebApi.5.1.2.nupkg",
+        "Microsoft.AspNet.WebApi.5.1.2.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.1.2": {
+      "serviceable": true,
+      "sha": "FbdEM+0G9GBprGuHMBbgfCg1oA6+Ew8tAtiTcEiLIrDXM2C44zzabGW4pXHDjBTswe0HgIWAynTv3IL2oP11NQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Newtonsoft.Json": "4.5.11"
+          },
+          "frameworkAssemblies": [
+            "System.Net.Http"
+          ],
+          "runtimeAssemblies": [
+            "lib/net45/System.Net.Http.Formatting.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/System.Net.Http.Formatting.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.WebApi.Client.5.1.2.nupkg",
+        "Microsoft.AspNet.WebApi.Client.5.1.2.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.Client.nuspec",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45/System.Net.Http.Formatting.xml"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.1.2": {
+      "serviceable": true,
+      "sha": "7KRMgOtv34xmJwheQQ9zv5syahBVjaMEAuX2ywnK86ysyLeebhb5IGKOzLptflRR/tDUG49RYgwbA6aR/U8T5Q==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": "5.1.2"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/System.Web.Http.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/System.Web.Http.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.WebApi.Core.5.1.2.nupkg",
+        "Microsoft.AspNet.WebApi.Core.5.1.2.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.Core.nuspec",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost/5.1.2": {
+      "serviceable": true,
+      "sha": "eJ02ZpSy7YB/ehVXkCADKdK1T1hZVcioPKos2DlWj3eCJS8Jaf7tzuIIoouGocNYMAwCjN8XQap5DL7aBj3R1g==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": "[5.1.2, 5.2.0)"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/System.Web.Http.WebHost.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/System.Web.Http.WebHost.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.WebApi.WebHost.5.1.2.nupkg",
+        "Microsoft.AspNet.WebApi.WebHost.5.1.2.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.WebHost.nuspec",
+        "lib/net45/System.Web.Http.WebHost.dll",
+        "lib/net45/System.Web.Http.WebHost.xml"
+      ]
+    },
+    "Newtonsoft.Json/4.5.11": {
+      "serviceable": false,
+      "sha": "IZ0vmfvcJrUONMIG3St+1EzSlnHc9qFY6/FU2YMHNXaGtdm6sSwIUAdXPAw1k3IwpxjVmZ0w9Pzszd8GkyrpFA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net40/Newtonsoft.Json.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net40/Newtonsoft.Json.dll"
+          ]
+        }
+      },
+      "files": [
+        "Newtonsoft.Json.4.5.11.nupkg",
+        "Newtonsoft.Json.4.5.11.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.xml",
+        "lib/sl3-wp/Newtonsoft.Json.dll",
+        "lib/sl3-wp/Newtonsoft.Json.xml",
+        "lib/sl4/Newtonsoft.Json.dll",
+        "lib/sl4/Newtonsoft.Json.xml",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.dll",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.xml",
+        "lib/winrt45/Newtonsoft.Json.dll",
+        "lib/winrt45/Newtonsoft.Json.xml"
+      ]
+    },
+    "WebApi.Hal/2.5.1": {
+      "serviceable": false,
+      "sha": "G7cPLAvkTppE8R/+GP6LZOm2/GLY40vdcT9J7KfrLMvfaCexusJb0mC5ClcOuNFWHxHntN12MfxiBBXeyGrw1w==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi": "5.1.2"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/WebApi.Hal.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/WebApi.Hal.dll"
+          ]
+        }
+      },
+      "files": [
+        "Readme.txt",
+        "WebApi.Hal.2.5.1.nupkg",
+        "WebApi.Hal.2.5.1.nupkg.sha512",
+        "WebApi.Hal.nuspec",
+        "lib/net45/WebApi.Hal.dll",
+        "lib/net45/WebApi.Hal.pdb"
+      ]
+    }
+  }
+}

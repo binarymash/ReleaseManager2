@@ -1,0 +1,41 @@
+{
+  "webroot": "wwwroot",
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNet.Mvc": "6.0.0-beta4",
+    "Microsoft.AspNet.Server.IIS": "1.0.0-beta4",
+    "Microsoft.AspNet.Server.WebListener": "1.0.0-beta4",
+    "Microsoft.AspNet.StaticFiles": "1.0.0-beta4",
+    "ReleaseManager.Api.Model": "1.0.0-*",
+    "ReleaseManager.Application": "1.0.0-*",
+    "ReleaseManager.Data.Db": "1.0.0-*",
+    "LibGit2Sharp": "0.21.0.176",
+    "FluentValidation": "5.6.2",
+    "WindowsAzure.Storage": "4.3.0",
+    "Microsoft.Framework.ConfigurationModel.Json": "1.0.0-*",
+    "Atlassian.SDK": "2.5.0"
+  },
+
+  "commands": {
+    "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.WebListener --server.urls http://localhost:5000"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+    //"dnxcore50": { }
+  },
+
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "bower_components"
+  ],
+  "publishExclude": [
+    "node_modules",
+    "bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ]
+}

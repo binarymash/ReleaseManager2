@@ -1,0 +1,44 @@
+{
+  "locked": false,
+  "version": -9998,
+  "projectFileDependencyGroups": {
+    "": [
+      "LibGit2Sharp >= 0.21.0.176"
+    ],
+    "DNX,Version=v4.5.1": []
+  },
+  "libraries": {
+    "LibGit2Sharp/0.21.0.176": {
+      "serviceable": false,
+      "sha": "BiHTA0u/PkC89VkjpPhJm9YGHCK5x2dmWhXxW8Dekb2nLEZUlSYsnXMjyrT+iAcIRX8AcQqrKa+o8306guvcXA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net40/LibGit2Sharp.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net40/LibGit2Sharp.dll"
+          ]
+        }
+      },
+      "files": [
+        "LibGit2Sharp.0.21.0.176.nupkg",
+        "LibGit2Sharp.0.21.0.176.nupkg.sha512",
+        "LibGit2Sharp.nuspec",
+        "App_Readme/libgit2.license.txt",
+        "App_Readme/LibGit2Sharp.CHANGES.md",
+        "App_Readme/LibGit2Sharp.LICENSE.md",
+        "App_Readme/LibGit2Sharp.README.md",
+        "build/net40/LibGit2Sharp.props",
+        "lib/net40/LibGit2Sharp.dll",
+        "lib/net40/LibGit2Sharp.xml",
+        "lib/net40/NativeBinaries/amd64/git2-e0902fb.dll",
+        "lib/net40/NativeBinaries/amd64/git2-e0902fb.pdb",
+        "lib/net40/NativeBinaries/x86/git2-e0902fb.dll",
+        "lib/net40/NativeBinaries/x86/git2-e0902fb.pdb"
+      ]
+    }
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "locked": false,
+  "version": -9998,
+  "projectFileDependencyGroups": {
+    "": [
+      "ReleaseManager.Api.Model >= 1.0.0-*",
+      "ReleaseManager.Data.Model >= 1.0.0-*",
+      "LibGit2Sharp >= 0.21.0.176",
+      "FluentValidation >= 5.6.2"
+    ],
+    "DNX,Version=v4.5.1": []
+  },
+  "libraries": {
+    "FluentValidation/5.6.2.0": {
+      "serviceable": false,
+      "sha": "xnwMRptvlZrEEzeGGse3etRffQxsMVrF+jb4V4uYD/PpPV9LnTtVJNSYvhVo0txKvRulDCSVXHIyr6ogjJaULQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/Net45/FluentValidation.dll"
+          ],
+          "compileAssemblies": [
+            "lib/Net45/FluentValidation.dll"
+          ]
+        }
+      },
+      "files": [
+        "FluentValidation.5.6.2.0.nupkg",
+        "FluentValidation.5.6.2.0.nupkg.sha512",
+        "FluentValidation.nuspec",
+        "lib/Net45/FluentValidation.dll",
+        "lib/Net45/FluentValidation.pdb",
+        "lib/Net45/FluentValidation.XML",
+        "lib/Net45/da/FluentValidation.resources.dll",
+        "lib/Net45/de/FluentValidation.resources.dll",
+        "lib/Net45/es/FluentValidation.resources.dll",
+        "lib/Net45/fi/FluentValidation.resources.dll",
+        "lib/Net45/fr/FluentValidation.resources.dll",
+        "lib/Net45/it/FluentValidation.resources.dll",
+        "lib/Net45/ko/FluentValidation.resources.dll",
+        "lib/Net45/mk/FluentValidation.resources.dll",
+        "lib/Net45/nl/FluentValidation.resources.dll",
+        "lib/Net45/pl/FluentValidation.resources.dll",
+        "lib/Net45/pt/FluentValidation.resources.dll",
+        "lib/Net45/ru/FluentValidation.resources.dll",
+        "lib/Net45/sv/FluentValidation.resources.dll",
+        "lib/Net45/tr/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/FluentValidation.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/FluentValidation.pdb",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/da/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/de/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/es/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/fi/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/fr/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/it/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/nl/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/pl/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/pt/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/ru/FluentValidation.resources.dll",
+        "lib/portable-net40+sl50+wp80+win8+wpa81/sv/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/FluentValidation.dll",
+        "lib/portable-net45+wp80+win8+wpa81/FluentValidation.pdb",
+        "lib/portable-net45+wp80+win8+wpa81/FluentValidation.XML",
+        "lib/portable-net45+wp80+win8+wpa81/da/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/de/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/es/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/fi/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/fr/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/it/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/nl/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/pl/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/pt/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/ru/FluentValidation.resources.dll",
+        "lib/portable-net45+wp80+win8+wpa81/sv/FluentValidation.resources.dll"
+      ]
+    },
+    "LibGit2Sharp/0.21.0.176": {
+      "serviceable": false,
+      "sha": "BiHTA0u/PkC89VkjpPhJm9YGHCK5x2dmWhXxW8Dekb2nLEZUlSYsnXMjyrT+iAcIRX8AcQqrKa+o8306guvcXA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net40/LibGit2Sharp.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net40/LibGit2Sharp.dll"
+          ]
+        }
+      },
+      "files": [
+        "LibGit2Sharp.0.21.0.176.nupkg",
+        "LibGit2Sharp.0.21.0.176.nupkg.sha512",
+        "LibGit2Sharp.nuspec",
+        "App_Readme/libgit2.license.txt",
+        "App_Readme/LibGit2Sharp.CHANGES.md",
+        "App_Readme/LibGit2Sharp.LICENSE.md",
+        "App_Readme/LibGit2Sharp.README.md",
+        "build/net40/LibGit2Sharp.props",
+        "lib/net40/LibGit2Sharp.dll",
+        "lib/net40/LibGit2Sharp.xml",
+        "lib/net40/NativeBinaries/amd64/git2-e0902fb.dll",
+        "lib/net40/NativeBinaries/amd64/git2-e0902fb.pdb",
+        "lib/net40/NativeBinaries/x86/git2-e0902fb.dll",
+        "lib/net40/NativeBinaries/x86/git2-e0902fb.pdb"
+      ]
+    },
+    "Microsoft.AspNet.WebApi/5.1.2": {
+      "serviceable": false,
+      "sha": "ZWNQr9qODEIw5+SIRj4WTkIlkaEzpV1EUZ/AqMrHhG99ZPMPV4Vo3Et9oT8wn4ZULIhyTwvzuu3go4itPyOIBA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.WebHost": "[5.1.2, 5.2.0)"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.WebApi.5.1.2.nupkg",
+        "Microsoft.AspNet.WebApi.5.1.2.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.1.2": {
+      "serviceable": true,
+      "sha": "FbdEM+0G9GBprGuHMBbgfCg1oA6+Ew8tAtiTcEiLIrDXM2C44zzabGW4pXHDjBTswe0HgIWAynTv3IL2oP11NQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Newtonsoft.Json": "4.5.11"
+          },
+          "frameworkAssemblies": [
+            "System.Net.Http"
+          ],
+          "runtimeAssemblies": [
+            "lib/net45/System.Net.Http.Formatting.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/System.Net.Http.Formatting.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.WebApi.Client.5.1.2.nupkg",
+        "Microsoft.AspNet.WebApi.Client.5.1.2.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.Client.nuspec",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45/System.Net.Http.Formatting.xml"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.1.2": {
+      "serviceable": true,
+      "sha": "7KRMgOtv34xmJwheQQ9zv5syahBVjaMEAuX2ywnK86ysyLeebhb5IGKOzLptflRR/tDUG49RYgwbA6aR/U8T5Q==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": "5.1.2"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/System.Web.Http.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/System.Web.Http.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.WebApi.Core.5.1.2.nupkg",
+        "Microsoft.AspNet.WebApi.Core.5.1.2.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.Core.nuspec",
+        "Content/web.config.transform",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost/5.1.2": {
+      "serviceable": true,
+      "sha": "eJ02ZpSy7YB/ehVXkCADKdK1T1hZVcioPKos2DlWj3eCJS8Jaf7tzuIIoouGocNYMAwCjN8XQap5DL7aBj3R1g==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": "[5.1.2, 5.2.0)"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/System.Web.Http.WebHost.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/System.Web.Http.WebHost.dll"
+          ]
+        }
+      },
+      "files": [
+        "Microsoft.AspNet.WebApi.WebHost.5.1.2.nupkg",
+        "Microsoft.AspNet.WebApi.WebHost.5.1.2.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.WebHost.nuspec",
+        "lib/net45/System.Web.Http.WebHost.dll",
+        "lib/net45/System.Web.Http.WebHost.xml"
+      ]
+    },
+    "Newtonsoft.Json/4.5.11": {
+      "serviceable": false,
+      "sha": "IZ0vmfvcJrUONMIG3St+1EzSlnHc9qFY6/FU2YMHNXaGtdm6sSwIUAdXPAw1k3IwpxjVmZ0w9Pzszd8GkyrpFA==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net40/Newtonsoft.Json.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net40/Newtonsoft.Json.dll"
+          ]
+        }
+      },
+      "files": [
+        "Newtonsoft.Json.4.5.11.nupkg",
+        "Newtonsoft.Json.4.5.11.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl4+wp7+win8/Newtonsoft.Json.xml",
+        "lib/sl3-wp/Newtonsoft.Json.dll",
+        "lib/sl3-wp/Newtonsoft.Json.xml",
+        "lib/sl4/Newtonsoft.Json.dll",
+        "lib/sl4/Newtonsoft.Json.xml",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.dll",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.xml",
+        "lib/winrt45/Newtonsoft.Json.dll",
+        "lib/winrt45/Newtonsoft.Json.xml"
+      ]
+    },
+    "WebApi.Hal/2.5.1": {
+      "serviceable": false,
+      "sha": "G7cPLAvkTppE8R/+GP6LZOm2/GLY40vdcT9J7KfrLMvfaCexusJb0mC5ClcOuNFWHxHntN12MfxiBBXeyGrw1w==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Microsoft.AspNet.WebApi": "5.1.2"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/WebApi.Hal.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/WebApi.Hal.dll"
+          ]
+        }
+      },
+      "files": [
+        "Readme.txt",
+        "WebApi.Hal.2.5.1.nupkg",
+        "WebApi.Hal.2.5.1.nupkg.sha512",
+        "WebApi.Hal.nuspec",
+        "lib/net45/WebApi.Hal.dll",
+        "lib/net45/WebApi.Hal.pdb"
+      ]
+    }
+  }
+}
