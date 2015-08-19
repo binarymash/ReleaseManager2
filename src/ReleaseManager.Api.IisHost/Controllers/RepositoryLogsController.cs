@@ -4,7 +4,6 @@ using Microsoft.AspNet.Mvc;
 using Microsoft.WindowsAzure.Storage.Table;
 using ReleaseManager.Api.Host.TableStorage;
 using ReleaseManager.Api.Host.VndError;
-using ReleaseManager.Api.Model;
 using Repository = ReleaseManager.Api.Host.TableStorage.Entities.Repository;
 using RepositoryLog = ReleaseManager.Api.Host.Representations.RepositoryLog;
 using RepositoryLogCollection = ReleaseManager.Api.Host.Representations.RepositoryLogCollection;

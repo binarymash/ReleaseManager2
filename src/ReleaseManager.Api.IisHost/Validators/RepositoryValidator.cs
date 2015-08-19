@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using ReleaseManager.Api.Model;
 using Repository = ReleaseManager.Api.Host.Representations.Repository;
 
 namespace ReleaseManager.Api.Host.Validators

@@ -1,5 +1,4 @@
 ﻿    using Microsoft.AspNet.Mvc;
-    using ReleaseManager.Api.Model;
     using ApiRoot = ReleaseManager.Api.Host.Representations.ApiRoot;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860

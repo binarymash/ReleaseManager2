@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Hosting;
 using Microsoft.AspNet.Mvc;
-using Microsoft.AspNet.Mvc.OptionDescriptors;
-using Microsoft.Framework.ConfigurationModel;
+using Microsoft.Framework.Configuration;
 using Microsoft.Framework.DependencyInjection;
+using Microsoft.Framework.Runtime;
 using ReleaseManager.Api.Host.Hal;
 using ReleaseManager.Api.Host.Representations;
 using ReleaseManager.Api.Host.TableStorage;
@@ -14,10 +14,11 @@ namespace ReleaseManager.Api.Host
     {
         private readonly IConfiguration _configuration;
 
-        public Startup(IHostingEnvironment env)
+        public Startup(IHostingEnvironment env, IApplicationEnvironment appEnv)
         {
-            _configuration = new Configuration()
-                .AddJsonFile("Config.json");
+            var configurationBuilder = new ConfigurationBuilder(appEnv.ApplicationBasePath);
+            configurationBuilder.AddJsonFile("Config.json");
+            _configuration = configurationBuilder.Build();
         }
 
         // This method gets called by a runtime.
@@ -49,7 +50,7 @@ namespace ReleaseManager.Api.Host
 
         private void ConfigureMyServices(IServiceCollection services)
         {
-            services.Configure<AppSettings>(_configuration.GetSubKey("AppSettings"));
+            services.Configure<AppSettings>(_configuration.GetConfigurationSection("AppSettings"));
             services.AddSingleton<Storage>();
             services.AddScoped<RequestIdStore>();
             services.AddScoped<VndError.ErrorFactory>();
@@ -66,9 +67,8 @@ namespace ReleaseManager.Api.Host
 
         private void ConfigureHalOutputFormatters(MvcOptions options)
         {
-            var jsonFormatter = new JsonHalMediaTypeOutputFormatter();
-            var descriptor = new OutputFormatterDescriptor(jsonFormatter);
-            options.OutputFormatters.Add(descriptor);
+            var jsonHalMediaTypeOutputFormatter = new JsonHalMediaTypeOutputFormatter();
+            options.OutputFormatters.Add(jsonHalMediaTypeOutputFormatter);
         }
 
     }

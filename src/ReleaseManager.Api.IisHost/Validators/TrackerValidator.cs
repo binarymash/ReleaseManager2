@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using ReleaseManager.Api.Model;
 using Tracker = ReleaseManager.Api.Host.Representations.Tracker;
 
 namespace ReleaseManager.Api.Host.Validators

@@ -10,7 +10,6 @@ namespace ReleaseManager.Api.Host.Controllers
     using Microsoft.AspNet.Mvc;
     using Microsoft.WindowsAzure.Storage.Table;
     using ReleaseManager.Api.Host.TableStorage;
-    using ReleaseManager.Api.Model;
 
     [Route("api/[controller]")]
     public class RepositoriesController : Controller
