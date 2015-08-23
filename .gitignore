@@ -1,3 +1,4 @@
 src/ReleaseManager.Host.Api/bin/
 src/packages/
 src/ReleaseManager.Host.Api/obj/
+src/ReleaseManager.Api.IisHost/project.lock.json

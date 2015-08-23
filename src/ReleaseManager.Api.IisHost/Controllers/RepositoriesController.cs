@@ -70,6 +70,7 @@ namespace ReleaseManager.Api.Host.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]Representations.Repository repository)
         {
+            // TODO: null repo
             var validationResult = _repositoryValidator.Validate(repository, ruleSet:"default,create");
             if (!validationResult.IsValid)
             {

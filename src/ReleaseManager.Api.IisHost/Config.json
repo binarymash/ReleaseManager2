@@ -1,6 +1,5 @@
 ﻿{
   "AppSettings": {
-    //"CloudStorageConnection": "DefaultEndpointsProtocol=https;AccountName=binarymashreleasemanager;AccountKey=GIwpbIqqDVP79J2EpHeKrrqoBVK8BizkrFBVzbt+QKYWw/XFJzjOF9mUB2IkUoQepBD3JRaQppeu/kL7m8TMlw==",
     "CloudStorageConnection": "UseDevelopmentStorage=true"
   }
 }
