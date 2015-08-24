@@ -46,6 +46,11 @@ namespace ReleaseManager.Api.Host
             // Add MVC to the request pipeline.
             app.UseMvc();
 
+            if (env.IsEnvironment("Development"))
+            {
+                app.UseErrorPage();
+            }
+
             InitialiseTableStorage(app);
         }
 
