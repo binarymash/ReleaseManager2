@@ -17,6 +17,7 @@ namespace ReleaseManager.Api.Host
         public Startup(IHostingEnvironment env, IApplicationEnvironment appEnv)
         {
             var configurationBuilder = new ConfigurationBuilder(appEnv.ApplicationBasePath);
+            configurationBuilder.AddEnvironmentVariables("BinaryMash.ReleaseManager:");
             configurationBuilder.AddJsonFile("Config.json");
             _configuration = configurationBuilder.Build();
         }
